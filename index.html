@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+<h1 id="header">Welcome to My Library</h1>
+
+<form class="form" action="http://127.0.0.1:5000/searchBook" method="post">
+    <input type="text" name="searchBook" id="searchBook">
+    <label for="searchBook">הכנס את שם הספר שברצונך לחפש</label>
+    <button type="submit" value="submit">submit</button>
+</form>
+<form class="form" action="http://127.0.0.1:5000/login" method="post">
+    <input type="text" name="login" id="login">
+    <label for="login">הכנס שם משתמש</label>
+    <button type="submit" value="submit">submit</button>
+</form>
+<form class="form" action="http://127.0.0.1:5000/deleteBook" method="post">
+    <input type="text" name="deleteBook" id="deleteBook">
+    <label for="deleteBook">הזן ספר שברצונך למחוק</label>
+    <button type="submit" value="submit">submit</button>
+</form>
+<form action="{{  BookNoAvailable(BookNoAvailable)  }}" method="post">
+<input type="submit" value="לראות את כל הספרים שהושאלו">
+</form>
+<div>
+    <a class="options" href='http://127.0.0.1:5000/index'>דף הבית</a>
+    <a class="options" href='http://localhost:5000/ContactUs'>צור קשר</a>
+</div>
+
+
+
+</body>
+</html>

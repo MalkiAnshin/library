@@ -1,0 +1,1 @@
+[{"title": "Harry Potter", "author": "J.K. Rolling", "genre": "Fantasy", "available": false}, {"title": "Anna Karenina", "author": "Leo Tolstoy", "genre": "Novel", "available": true}, {"title": "Lolita", "author": "Vladimir Nabokov", "genre": "Novel", "available": true}, {"title": "Hamlet", "author": "William Shakespeare", "genre": "Tragedy, Drama", "available": true}]
